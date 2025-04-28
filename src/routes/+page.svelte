@@ -1,16 +1,23 @@
 <script>
   let interests = ['Programming', 'Cheese', 'Golf'];
 </script>
-
+<h1>This is my website!</h1>
 <main class="container">
-  <h1>Hello, I'm <span class="highlight">Mabo</span>!</h1>
+  <h1>Hello, I'm <span class="highlight">Mason Fu</span>!</h1>
 
   <section class="card">
     <h2>About Me</h2>
     <p>
-      I like programming, cheese, and sometimes golf.
+      I like programming, cheese, and playing golf.
     </p>
-    <button>Here is something you can click.</button>
+    <p>I program in a little html, mostly python, and a little css.</p>
+    <p>My favorite types of cheese are parmesan, sharp cheddar, and mozzarella.</p>
+    <p>In golf, I mostly play for fun.</p>
+    <p>I got a riddle for you. 1. A man rides in on Friday, and 3 days later leaves on Friday. How is this possible?</p>
+    <p>I have some others too. 2. What has keys but does not open any doors?</p>
+    <p>3.What kind of room cannot be opened?</p>
+    <p><b>The answers are at the bottom.</b></p>
+    <button>Here is something you can click for fun.</button>
   </section>
 
   <section class="card">
@@ -20,6 +27,7 @@
         <li>{interest}</li>
       {/each}
     </ul>
+    <p>1. The horse is named Friday. 2. A keyboard. 3. a mushroom.</p>
   </section>
 </main>
 
